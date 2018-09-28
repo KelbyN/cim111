@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Noto+Serif+JP|Roboto');
+
+
+
+
+body{
+background: linear-gradient(0.25turn, #ecf7f9, #c5e8ec 75%, #8bd2da);
+  font-family: 'Indie Flower', cursive;
+}
+/* when you do a custom font you want also make a defult font just in case your browser cannot load the custom font.
+We will use google fonts. THe stantard option is to embed in the html page. To imbed in the css page, use at import*/
+/*1. go to google, and choose a font. 2. click plus sign. 3. expand at bottom. 4. click embed, and at import.
+5. go back to style css, and copy paste to the top of the css document*/
+
+
+a{
+  text-decoration: none;
+  color: #80ced6;
+  font-weight: 900;
+
+}
+/*this will make somethng happen when you hover over the link*/
+a:hover{
+  color: #2c7e87;
+text-decoration: underline;
+}
+a:visited{
+  color:red;
+}
+
+
+
+#name{
+  text-align: center;
+  backgroung-color: cyan;
+}
+
+#adress{
+  text-align: center;
+}
+
+.headertwo{
+  color: #3eb4c1;
+  font-weight: 2000;
+}
+
+#tech{
+  font-weight: 900;
+}
+
+h1 {
+color: #19484d;
+}
+
+.textcolor {
+color:  #9fd9e0;
+
+}
+
+.header {
+  color: #2c7e87;
+  text-decoration: underline;
+}
+
+.character{
+  font-weight: 900;
+}
+
+p{
+  line-height: 30px;
+  text-indent: 20px;
+}
+
+#paragraph{
+  text-align: center;
+  background-color: #b2e1e6;
+  width: 900px;
+  height: 200px;
+  padding: 10px;
+  border: solid;
+  border-color:  #32909a;
+  margin: 0 auto;
+}
+
+.list{
+  list-style-position: inside;
+}
+
+/* the display tag can force elements that arent blocks into it*/
+#me{
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+header{
+
+}
+
+main{
+  width: 920px;
+  margin: 0 auto;
+}
+
+footer{
+
+width: 920px;
+margin: 0 auto;
+margin-bottom: 100px;
+}
+#footer{
+  color:  #003399;
+}
