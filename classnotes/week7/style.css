@@ -1,0 +1,97 @@
+#changetext {
+  color: purple;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#fontchange{
+  font-family: fantasy;
+
+
+}
+
+/* this is a class. note this starts with a period, while the id starts with a number sign*/
+.backgroundchange{
+  background-color: blue;
+}
+
+/* i can even add padding to the box around my words. you need to adjust the width and height based off of the
+padding you want to add. because it creates padding by increasing the size of your box*/
+/* you can do a lot of shit with the box*/
+#box{
+background-color: pink;
+width: 200px;
+height: 200px;
+padding: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+border: solid;
+border-width: 5px;
+border-style: dashed;
+border-color: blue
+/* this notation is a shorthand that goes clockwise. it is top right bottom left. you can do the
+ same thing widththe padding*/
+border-width: 5px 10px 5px 10px;
+/* bofore this point our margins are set to the left hand side. But with this below, there will be a 50px margin
+around the box*/
+margin: 50px
+margin-top: 50px;
+margin-right: 100px
+margin-left:200px;
+margin-bottom: 50px;
+margin: 0 auto;
+}
+
+header{
+  background-color: orange;
+  width: 960px;
+  height: 200px;
+  margin: 0 auto;
+  /* maybe i want the text to be higher, nd closer to the top. i have to force it to be. */
+  margin-top: -20px;
+
+}
+main{
+  background-color: #ebf7f9;
+  width: 960px;
+  margin: 0 auto;
+
+}
+footer{
+  background-color: orange;
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+nav{
+width: 400px
+background-color:pink
+margin:0 auto;
+
+}
+
+nav ul{
+
+}
+
+nav ul li{
+list-style: none;
+/* this is going to let the items in this to be listed aside eachother insead of under eachother*/
+display: inline-block;
+margin-left: 10px;
+
+
+}
+/* text-decoration...this is for removing the inderline of the words*/
+nav ul li a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+
+nav ul li a: hov{
+  color: gray;
+}

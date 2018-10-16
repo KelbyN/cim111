@@ -1,0 +1,4 @@
+/* so we have 2 css for one html. when the width is one thing on one screen, and another on the other screen, you need separate css docs.
+for example, when you go from desktop to mobile */
+/* this will let you import css from one doc the other*/
+@import "desktop.css";
