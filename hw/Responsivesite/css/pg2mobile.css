@@ -1,0 +1,65 @@
+@import "pg2.css";
+
+.headimages{
+  width:100%;
+}
+
+.quote{
+  color: #b30000;
+text-align: center;
+font-size: 100%;
+}
+.subimages{
+  height:1fr;
+  width: 100%;
+}
+#grid1{
+  display: grid;
+  grid-template-areas: "col1 quote";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 100%;
+  text-align: center;
+}
+
+
+#grid2{
+  display:block;
+  grid-template-areas: "col2 col3 col4 ";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 100% 100% 100%  ;
+
+}
+
+
+#grid3{
+  display: grid;
+  grid-template-areas: "col5 quote";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 100%;
+  text-align: center;
+}
+
+
+#grid4{
+  display:block;
+  grid-template-areas: "col6 col7 col8 ";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 100% 100% 100%  ;
+}
+
+
+#grid5{
+  display: grid;
+  grid-template-areas: "col9 quote";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1000%;
+  text-align: center;
+}
+
+
+#grid6{
+  display:block;
+  grid-template-areas: "col10 col11 col12 ";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 100% 100% 100%;
+}

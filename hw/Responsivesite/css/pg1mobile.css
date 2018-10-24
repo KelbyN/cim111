@@ -1,0 +1,39 @@
+@import "pg1.css";
+
+#grid1{
+  display: block;
+  grid-template-areas: "col1 text";
+  grid-template-rows:1fr 1fr;
+  grid-template-columns: 100%;
+  text-align: center;
+}
+
+#col1{
+width: 100%;
+margin-right: 150px;
+margin-bottom: 10px;
+}
+#text{
+color: #b30000;
+margin-left: -200px;
+font-size: 100%;
+
+}
+
+
+#grid2{
+  display: block;
+  grid-template-areas: "col2 col3";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 40%;
+}
+
+#col2{
+  width:30%;
+}
+#me{
+  width: 150%;
+
+}
+#col3{
+  width: 120%;

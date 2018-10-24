@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:700');
+
+header{
+  width: 100%;
+  background-color: #b30000;
+  height: 100px;
+}
+h1{
+  color: white;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: bold;
+  margin-left: 20px;
+}
+nav ul li{
+list-style: none;
+/* this is going to let the items in this to be listed aside eachother insead of under eachother*/
+display: inline-block;
+margin-left: 10px;
+margin-bottom: : 10px;
+}
+/* text-decoration...this is for removing the inderline of the words*/
+nav ul li a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+}
+.headimages{
+  width: 1246px;
+}
+#grid1{
+  display: grid;
+  grid-template-areas: "col1 quote";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1000px;
+  text-align: center;
+
+}
+#col1{
+  width: 700px;
+  text-align: center;
+  margin-left: 300px;
+}
+.quote{
+  color: #b30000;
+text-align: center;
+font-size: 30px;
+font-family: 'Source Serif Pro', serif;
+}
+#grid2{
+  display:grid;
+  grid-template-areas: "col2 col3 col4 ";
+  grid-template-rows: 300px;
+  grid-template-columns: 400px 400px 400px ;
+margin-bottom: 25%;
+}
+#col2{
+  grid-area:col2;
+  background-image:url("../images/spices.jpg");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+#col3{
+grid-area:col3;
+margin-left: 13px;
+margin-right: 13px;
+background-color: purple;
+background-image: url('../images/indian2.jpg');
+background-size: 400px;
+background-repeat: no-repeat;
+background-position: center;
+}
+#col4{
+grid-area:col4;
+margin-right: 50px;
+background-color: pink;
+background-image: url('../images/tam.jpg');
+background-size: 400px;
+background-repeat: no-repeat;
+background-position: center;
+}
+.subimages{
+  height: 300px;
+
+}
+#grid3{
+  display: grid;
+  grid-template-areas: "col5 quote";
+  grid-template-rows: 200px;
+  grid-template-columns: 1000px;
+  text-align: center;
+}
+#col5{
+  width: 700px;
+  text-align: center;
+  margin-left: 300px;
+}
+#grid4{
+  display:grid;
+  grid-template-areas: "col6 col7 col8 ";
+  grid-template-rows: 300px;
+  grid-template-columns: 400px 400px 400px ;
+  margin-bottom: 25%;
+}
+#col6{
+  grid-area: col6;
+  background-image:url("../images/scake.jpg");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#col7{
+  grid-area:col7;
+  margin-left: 13px;
+  margin-right: 13px;
+  background-color: purple;
+  background-image: url("../images/gumbo.jpg");
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#col8{
+  grid-area:col8;
+  margin-right: 50px;
+  background-color: pink;
+  background-image: url("../images/spices.jpg");
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#grid5{
+  display: grid;
+  grid-template-areas: "col9 quote";
+  grid-template-rows: 200px;
+  grid-template-columns: 1000px;
+  text-align: center;
+}
+#col9{
+  width: 700px;
+  text-align: center;
+  margin-left: 300px;
+}
+#grid6{
+  display:grid;
+  grid-template-areas: "col10 col11 col12 ";
+  grid-template-rows: 300px;
+  grid-template-columns: 400px 400px 400px ;
+  margin-bottom: 25%;
+}
+#col10{
+  grid-area: col10;
+  background-image:url("../images/kbowl.jpg");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#col11{
+  grid-area:col11;
+  margin-left: 13px;
+  margin-right: 13px;
+  background-color: purple;
+  background-image: url("../images/dumplings.jpg");
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#col12{
+  grid-area:col12;
+  margin-right: 50px;
+  background-color: pink;
+  background-image: url("../images/sushi.jpg");
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+footer{
+  width: auto;
+  background-color: #b30000;
+  height: 70px;
+  margin-top: 50px;
+}

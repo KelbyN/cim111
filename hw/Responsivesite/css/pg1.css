@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:700');
+
+header{
+  width: auto;
+  background-color: #b30000;
+  height: 100px;
+
+}
+h1{
+  color: white;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: bold;
+  margin-left: 20px;
+}
+nav ul li{
+list-style: none;
+/* this is going to let the items in this to be listed aside eachother insead of under eachother*/
+display: inline-block;
+margin-left: 10px;
+margin-bottom: : 10px;
+}
+/* text-decoration...this is for removing the inderline of the words*/
+nav ul li a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+}
+#box1{
+  width: 100%;
+}
+.headimages{
+  width: 100%;
+}
+#grid1{
+  display: grid;
+  grid-template-areas: "col1 text";
+  grid-template-rows: 1fr;
+  grid-template-columns: 25% 70%;
+  text-align: center;
+}
+#col1{
+width: 240%;
+text-align: center;
+margin-left: 300px;
+margin-bottom: 10px;
+}
+#text{
+  color: #b30000;
+text-align: center;
+font-size: 30px;
+font-family: 'Source Serif Pro', serif;
+
+}
+#grid2{
+  display: grid;
+  grid-template-areas: "col2 col3";
+  grid-template-rows: 1fr;
+  grid-template-columns: 45% 55%;
+}
+#col2{
+  width:30%;
+}
+#me{
+  width: 150%;
+  margin-left: 50px;
+}
+#col3{
+  width: 80%;
+  font-family: 'Source Serif Pro', serif;
+}
+footer{
+  width: auto;
+  background-color: #b30000;
+  height: 70px;
+  margin-top: 50px;
+}

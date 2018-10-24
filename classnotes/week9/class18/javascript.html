@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>intro to javascript</title>
+</head>
+<!-- -->
+
+<body>
+
+
+  <h1 id="changetext">intro to javascript</h1>
+
+<!-- relative link-->
+  <script src="class18/j.3.1.min.js"></script>
+
+<!--absolute link-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<script>
+//write a comment
+//start of a script , with the dollar sign i am telling the system to find soemthing, inside the parentheses is what i want it to
+find
+$(document).ready(function(){//all code should be placed below, in between the curly braces
+
+$("body").css("background-color", "pink");
+$("h1").css("color", "midnightblue");
+$("#changetext").css("font-size","40px");
+
+$("#changetext").click(function(){
+$("body").css("background-color","yellow");
+
+
+});//end of change text click
+
+});//end of document ready
+</script>
+
+
+</body>
+</html>
