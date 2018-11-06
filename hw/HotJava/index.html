@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title> How to make amazing cheesecake</title>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+header{
+  width: auto;
+  background-color: #ffb3d9;
+  height: 100px;
+}
+h1{
+  text-align: center;
+  font-family: 'Cookie', cursive;
+  font-size: 55px;
+  color: white;
+  margin-bottom: 10px;
+}
+h2{
+  font-family: 'Lora', serif;
+  font-size: 40px;
+}
+#titleline{
+  display: grid;
+  grid-template-areas: "col1 col2";
+  grid-template-rows: 1fr;
+  grid-template-columns: 900px;
+  text-align: center;
+  margin-bottom: -100px;
+}
+#bannerimage{
+  height: 1fr;
+  width: 100%;
+}
+
+#gridtextimage1{
+  display: block;
+  grid-template-areas: "textimages undertext"
+}
+#gridtextimage2{
+  display: block;
+  grid-template-areas: "textimages undertext"
+}
+#cgrid1{
+  display:grid;
+  grid-template-areas:" stepimage ctext1";
+  grid-template-rows: 1fr;
+  grid-template-columns: 100px 800px;
+  background-color:white;
+  margin-bottom: 15px;
+}
+#cgrid2{
+  display:grid;
+  grid-template-areas:" stepimage ctext2";
+  grid-template-rows: 1fr;
+  grid-template-columns: 100px 800px;
+  background-color:white;
+  margin-bottom: 15px;
+}
+#cgrid3{
+  display:grid;
+  grid-template-areas:" stepimage ctext3";
+  grid-template-rows: 1fr;
+  grid-template-columns: 100px 800px;
+  background-color:white;
+  margin-bottom: 15px;
+}
+#grid1{
+  display:grid;
+  grid-template-areas:" stepimage text1";
+  grid-template-rows: 1fr;
+  grid-template-columns: 100px 800px;
+  background-color:white;
+  margin-bottom: 15px;
+}
+#grid2{
+  display:grid;
+  grid-template-areas: "stepimage text2";
+  grid-template-rows: 1fr;
+  grid-template-columns: 100px 800px;
+  background-color:white;
+  margin-bottom: 15px;
+}
+#grid3{
+  display:grid;
+  grid-template-areas: "stepimage text3";
+  grid-template-rows: 1fr;
+  grid-template-columns:  100px 800px;
+  background-color:white;
+  margin-bottom: 15px;
+}
+#grid4{
+  display:grid;
+  grid-template-areas: "stepimage text4";
+  grid-template-rows: 1fr;
+  grid-template-columns: 100px 800px;
+  background-color:white;
+  margin-bottom: 15px;
+}
+#grid5{
+  display:grid;
+  grid-template-areas: "stepimage text5";
+  grid-template-rows: 1fr;
+  grid-template-columns: 100px 800px;
+  background-color:white;
+  margin-bottom: 15px;
+}
+#grid6{
+  display:grid;
+  grid-template-areas: "stepimage text6";
+  grid-template-rows: 1fr;
+  grid-template-columns: 100px 800px;
+  background-color:white;
+  margin-bottom: 15px;
+}
+
+#gridbody{
+  display: grid;
+  grid-template-areas:" box1 sidebar"
+}
+#ctext1{
+  grid-area: ctext1;
+  background-color: white;
+  width:80%;
+  height: 100px;
+}
+#ctext2{
+  grid-area: ctext2;
+  background-color: white;
+  width:65%;
+  height: 100px;
+}
+#ctext3{
+  grid-area: ctext3;
+  background-color: white;
+  width:65%;
+  height: 100px;
+}
+#text1{
+  grid-area: text1;
+  background-color: white;
+  width:65%;
+  height: 100px;
+
+}
+#text2{
+  grid-area:text2;
+  background-color: white;
+  width:500px;
+  height: 100px;
+}
+#text3{
+  grid-area: text3;
+  background-color: white;
+  width:65%;
+  height: 100px;
+}
+#text4{
+  grid-area:text4;
+  background-color: white;
+  width:65%;
+  height: 100px;
+}
+#text5{
+  grid-area: text5;
+  background-color: white;
+  width:65%;
+  height: 100px;
+}
+#text6{
+  grid-area: text6;
+  background-color: white;
+  width:65%;
+  height: 100px;
+}
+#col2{
+  height: 350px;
+  width: 300px;
+
+  margin-bottom: 20px;
+}
+#about{}
+#me{}
+#aboutme{}
+#sidebar{
+height: 600px;
+width: 300px;
+
+}
+#ad{
+width: 300px;
+}
+#box{
+  width: 900px;
+  height: 150px;
+  border-color: #ff99cc;
+  border-width: thick;
+  border-style: solid;
+  background-color: #ff99cc;
+
+}
+#box1{
+width: 900px;
+  border-style: solid;
+  border-color: #ff99cc;
+  border-width: thick;
+  margin-bottom: 100px;
+}
+#box2{
+  width: 850px;
+  height:60px;
+
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+#ingr{
+  align-content: center;
+  text-align: center;
+  text-align: justify;
+}
+#me{
+  width: 150px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color:#ffb3d9;
+}
+#show{
+  margin-bottom: 30px;
+}
+#ad1{
+  width: 850px;
+}
+.stepimage{
+  grid-area: stepimage;
+  width:;
+  height: 150px;
+  background-color: red;
+}
+.textimages{
+  width: 850px;
+}
+.undertext{
+  width: 850px;
+  grid-area: undertext;
+  font-family: 'Lora', serif;
+  text-align: justify;
+  margin-bottom: -20px;
+}
+</style>
+</head>
+
+<body>
+
+
+<header>
+<h1> Cheesecake is Happiness</h1>
+</header>
+
+
+<main>
+  <div id="banner">
+<img id="bannerimage" src="images/banner1.JPG">
+  </div>
+
+
+<section id="titleline">
+<div id="col1">
+<h2> Simple, Creamy Cheesecake</h2>
+<p class="undertext">This recie has been years in the making. Tweaked to perfection.Tweaking, taking ingredients out, addind some in.
+  My favorite thing about this is it is super creamy, and is not at all a cakey texture. Sometimes
+  when you go to a restaurant, the cheesecake has a bit of a spongey texture to it. Simulating cake
+  a little but. But not this recipe. Its a true cheesecake.  The crust is perfectly
+baked to a crispy texure, and is the perfest amount of crunchiness to balance to smooth cheesecake. And it can easily
+swapped out for any other type of cookie, nut, or wafer you think would make the perfect crust!</p>
+</div>
+<section id="col2">
+<div id="about">
+<img id="me" src="images/me.jpg">
+</div>
+<div id="aboutme">
+<p > Hello! My name is Kelby Norfleet. I started making cheesecakes about 6 years ago. People would always summary
+I should sell them, but I never entertained the idea. Fast forward to a year ago, I now sell cheeseckes with my sister
+and hope to open a store one day.</p>
+</div>
+</section>
+</section>
+
+
+<section id=gridtextimage1>
+<div class="textimages">
+<img class="textimages"  src="images/ch2.JPG">
+</div>
+<div class="undertext">
+<p >Outting together this cheesecake is a lot of work, but its simple, and eas, and well worth the wait. It is
+split into 3 separate categoies: Preparethe crust, and preparing the mix.  My favorite thing about this is it is super creamy, and is not at all a cakey texture. Sometimes
+when you go to a restaurant, the cheesecake has a bit of a spongey texture to it. Simulating cake
+a little but. But not this recipe. Its a true cheesecake.  The crust is perfectly
+baked to a crispy texure, and is the perfest amount of crunchiness to balance to smooth cheesecake. And it can easily
+swapped out for any other type of cookie, nut, or wafer you think would make the perfect crust!
+</p>
+</div>
+</section>
+
+<section id=gridtextimage2>
+<div class="textimages">
+<img class="textimages"  src="images/collage1.jpg">
+</div>
+</section>
+
+<!-- when i add the recepticle id and toggle id, my box disapeared. When i hover over the box, it shoud say,
+visit website, and the toggle is to make it disapear and reappear-->
+<section id="box2"> hide ad
+<img id="ad1" src="images/ad1.jpg">
+</section>
+<section id="show">show ad</section>
+
+
+<section id="box">
+<h1>Classic Cheesecake</h1>
+<p>This delicioius cheesecake serves around 14 people, depending on how big you slice it. </p>
+</section>
+
+<section id="gridbody">
+<section id="box1">
+  <section class="undertext" id="ingr">
+    <h2> Ingredients:</h2>
+    <ul>
+
+    <li>2 packs Graham Crackers</li>
+    <li>2 tbsp Butter</li>
+    <li> 24 ounces Cream Cheese</li>
+    <li> 16 ounces sour cream</li>
+    <li>2 cups white sugar</li>
+    <li>1/4 cup flour</li>
+    <li> 5tsp vanilla extract</li>
+    <li>5 eggs</li>
+    <li> juice of half a lemon</li>
+
+    </ul>
+    <h2>Directions</h2>
+
+  </section>
+<h3>For the crust:</h3>
+
+<section id="cgrid1">
+
+<div class="undertext" id="ctext1">
+ <p>1. Prepare the pan by lining it with parchment paper. Set aside </p>
+</div>
+</section>
+
+<section id="cgrid2">
+
+<div class="undertext" id="ctext2">
+ <p>2. Combine the butter and crushed graham crackers in a bowl together. Mix well.  </p>
+</div>
+</section>
+
+<section  id="cgrid3">
+<div class="undertext" id="ctext3">
+ <p>3. Press mixture into a pan and bake at 350 degrees for about 20 minutes </p>
+</div>
+
+</section>
+<h3>For the Cheesecake mix</h3>
+<section id="grid1">
+<div class="undertext" id="text1">
+ <p>4. Beat the room temperature cream cheese until soft, and fluffy. </p>
+</div>
+</section>
+
+
+<section id="grid2">
+  <div class="undertext" id="text2">
+<p> 5. Add in the sugar about a third cup at a time, stopping to beat in the sugar completely before adding more.
+</p>
+  </div>
+</section>
+
+
+<section id="grid3">
+  <div class="undertext" id="text3">
+<p>6. beat in the eggs, one at a time</p>
+  </div>
+</section>
+
+
+
+<section id="grid4">
+  <div class="undertext" id="text4">
+<p> 7. Add in the lemon juice, the vanilla extract. Sift in the flour. Stir well to combine, and make sure there
+are no lumps. Then add in the sour cream.</p>
+  </div>
+</section>
+
+
+<section id="grid5">
+  <div class="undertext" id="text5">
+<p>8.  Pour mixture into the pan you prepared for the crust, and bake in the oven for about 80 minutes, or until
+the top barely jiggles when touched</p>
+  </div>
+</section>
+
+
+<section id="grid6">
+
+  <div class="undertext" id="text6">
+<p> 9. Carefully remove cheesecake from pan by flipping it over onto a flat surface, and then flipping it onto your
+serving dish. If necessary, run a knife around the edges and soak the bottim of the pan in hot water before trying
+to remove. Serve with any topping you like!</p>
+<p id="tip">**See tip**</p>
+<p id="trick"> If the cheesecake is tight fitting in the pan, you can use a springform pan instead.
+  But you must wrap it well in foil. Or, simple run a knife around the inside of the pan, and allow
+  it to sit in hot water for about 5 minutes before removing it.</p>
+  </div>
+</section>
+</section>
+
+
+<section id="sidebar">
+<div id="ad">
+<img id="ad" src="images/ad.jpg">
+<a href="https://www.yelp.com/biz/kk-cheesecakes-miami" id="link">Visit our Yelp</a>
+</div>
+</section>
+
+</section>
+</main>
+
+
+<footer></footer>
+
+<script src="j.3.1.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<script>
+
+//$("#box2").click(function(){
+  //$("#box2").toggle(100);//putting in a number in the parentheses creates a fading effect
+
+//});
+
+$("#ad").mouseenter(function(){
+$("#link").html("<i>Click here to visit our Yelp Page</i>");
+
+});
+$("#ad").mouseleave(function(){
+$("#link").html("<em> Visit our yelp</em>");
+$("#ad").css("background-color", "yellow");
+});
+
+
+
+$("#box2").click(function(){
+  $("#box2").hide();
+});
+$("#show").click(function(){
+  $("#box2").show();
+});
+
+$("#tip").click(function(){
+  $("#trick").toggle();
+});
+</script>
+
+
+</body>
+</html>

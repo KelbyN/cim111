@@ -3,6 +3,14 @@
 
 <head>
   <title>intro to javascript</title>
+
+<style>
+.box{
+  width:100px;
+  height: 100px;
+  background-color: green;
+}
+</style>
 </head>
 <!-- -->
 
@@ -10,6 +18,22 @@
 
 
   <h1 id="changetext">intro to javascript</h1>
+
+<h2 id="info"> mouse over to see more information. </h2>
+<div id="recepticle"></div><!-- depending on the command, we'll put soomething inside-->
+
+<h2>image gallery</h2>
+<img id="image1" src="https://c5.staticflickr.com/8/7416/9569823386_ea2c04a635_o.jpg" width="100px">
+<img id="image2" src="https://c5.staticflickr.com/2/1234/5113959656_972c3b3ce1_o.jpg" width="100px">
+<div id="imagerecepticle"></div>
+
+<h2>show, hide, and toggle</h2>
+<ul>
+<li id="show">show</li>
+<li id="hide">hide</li>
+<li id="toggle">toggle</li>
+</ul>
+<div class="box"></div>
 
 <!-- relative link-->
   <script src="class18/j.3.1.min.js"></script>
@@ -24,6 +48,9 @@
 find
 $(document).ready(function(){//all code should be placed below, in between the curly braces
 
+$(".box").hide();
+
+
 $("body").css("background-color", "pink");
 $("h1").css("color", "midnightblue");
 $("#changetext").css("font-size","40px");
@@ -33,6 +60,50 @@ $("body").css("background-color","yellow");
 
 
 });//end of change text click
+
+//mouse enter means that when you get close to the item with your mouse, something will happen. So in this example
+//when i over near or over the text, "this info is important" appears
+
+$("#info").mouseenter(function(){
+$("#recepticle").html("<i>this information is important</i>");
+
+});
+//this mouse leave is so the text goes away when the mouse isnt near the text
+$("#info").mouseleave(function(){
+$("#recepticle").html("<em> this information is important</em>");
+$("#info").css("background-color", "blue");
+});
+
+$("#inifo").mouseleave(function(){
+$("#recepticle").html("");
+
+$("#info").css("background-color", "transparent");
+
+});
+
+$("#image1").click(function(){
+  $("#imagerecepticle").html( '<img src="https://c5.staticflickr.com/8/7416/9569823386_ea2c04a635_o.jpg" width="300px">');
+
+});
+
+$("#image2").click(function(){
+$("#imagerecepticle").html( '<img src="https://c5.staticflickr.com/2/1234/5113959656_972c3b3ce1_o.jpg" width="300px">');
+
+});
+//working eith double quotes could potentially be an issue, since sometimes the system loses track
+//when using double quotes, within the html function in the script tag, use singe quotes instead
+
+//remember, when doing this, its like a cause and effect. When i click(cause), it hides(effect)
+
+$("#hide").click(function(){
+  $(".box").hide();
+});
+$("#show").click(function(){
+  $(".box").show();
+});
+//toggle is like a 2 in 1. It is one button to show or hide
+$("#toggle").click(function(){
+  $(".box").toggle(100);//putting in a number in the parentheses creates a fading effect
 
 });//end of document ready
 </script>
