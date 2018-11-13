@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+
+  <style>
+    .slider {
+        width:450px;
+    }
+    ul {
+        list-style: none outside none;
+        padding-left: 0;
+        margin-bottom:0;
+    }
+    li {
+        display: block;
+        float: left;
+        margin-right: 6px;
+        cursor:pointer;
+    }
+    img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <div class="slider">
+      <ul id="lightSlider">
+          <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg">
+              <img src="https://sachinchoolur.github.io/lightslider/img/cS-1.jpg" />
+          </li>
+          <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-2.jpg">
+              <img src="https://sachinchoolur.github.io/lightslider/img/cS-2.jpg" />
+          </li>
+          <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-3.jpg">
+              <img src="https://sachinchoolur.github.io/lightslider/img/cS-3.jpg" />
+          </li>
+          <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-4.jpg">
+              <img src="https://sachinchoolur.github.io/lightslider/img/cS-4.jpg" />
+          </li>
+          </ul>
+          </div>
+</main>
+<footer></footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+<script src="lightslider.js"></script>
+<script>
+  $('#lightSlider').lightSlider({
+      gallery: true,
+      item: 1,
+      loop:true,
+      slideMargin: 0,
+      thumbItem: 9
+  });
+</script>
+</body>
+  </html>
