@@ -13,29 +13,47 @@
 
 
 <style>
+
+@import url('https://fonts.googleapis.com/css?family=Merienda+One');
+@import url('https://fonts.googleapis.com/css?family=Oregano');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Oregano');
+
+
 header{
   width: 100%;
   height: 100px;
-  background-color: #e67300;
+  background-color: #660066;
   text-align: center;
   color: white;
+  font-family: 'Oregano', cursive;
 }
-
-#banner{}
+h1{
+  font-size: 40px;
+  margin-bottom: -5px;
+}
+#intro{
+  text-align: center;
+  margin-left: 210px;
+  font-family: 'Noto Serif', serif;
+  width: 800px;
+}
+#banner{
+  display:block;
+  grid-template-areas: "1 2"
+}
 #bannerimage{
 width: 100%;
 }
-#intro{
-  width: 70%;
-  text-align: center;
 
-}
 #image1{
   width: 400px;
 }
-#gridgallery{}
+
 h3{
   text-align: center;
+    font-size: 32px;
+    font-family: 'Oregano', cursive;
+    color: #660066;
 }
 .grid2{
   display: grid;
@@ -47,9 +65,24 @@ h3{
 .imagetext{
   width: 60%;
 }
+.paragraph{
+  width: 700px;
+  text-align: center;
+  align-items: center;
+
+}
+.descriptions{
+  align-items: center;
+  text-align: center;
+margin-left: 300px;
+font-family: 'Noto Serif', serif;
+}
+
+
+
 .slider {
-    width:450px;
-    margin-left:400px;
+    width:550px;
+    margin-left:380px;
 }
 ul {
     list-style: none outside none;
@@ -470,12 +503,9 @@ img {
 <section id="banner">
   <!-- for the banner, i want the words on top of the image!!!, so do i have to put it in the
 same box/div tag-->
-  <div>
-  <p>Food is the world to me. To me, food and culture are intertwined in the most precious way.
-  History and geography affect both of these things, allowing for a unique culinary identity. When I am able to make my travel dreams come
-true, food will definately be an essential part of it. Of all the places I want to visit, India
-falls in first place. </p>
-  <img id="bannerimage" src="images/taj.jpg"></div>
+
+<div id="2">
+  <img id="bannerimage" src="images/h1.jpg"></div>
 </section>
 
 <section>
@@ -484,23 +514,14 @@ falls in first place. </p>
 
 
 <section id="intro">
-<p> India is one of the largets democracies and has the second most english speaking population.
-India is one of the largets democracies and has the second most english speaking population.
-India is one of the largets democracies and has the second most english speaking population.
-India is one of the largets democracies and has the second most english speaking population.
-India is one of the largets democracies and has the second most english speaking population.
-India is one of the largets democracies and has the second most english speaking population.
-India is one of the largets democracies and has the second most english speaking population.</p>
-</section>
-
-
-<section id="gridgallery">
-  <div>
-  <img src=""></div>
-  <div>
-  <img src=""></div>
-  <div>
-  <img src=""></div>
+<p> A kaleidoscope of traditions, culture and vibrant geographies, travelling India
+  can be a soul-stirring journey. From its dusty snow trenches, frolic coasts,
+    gripping natural green to the mystic ravines of spirituality and clusters of cultural
+    shades defining the raw beauty, India captures the heart of every tourist. Whether its culture,
+    spirituality, food, history, you'll find what you'll are seeking here. I have a dream of
+    touring India to explore the spirituality, and of course the food. I would love to
+    travel the country, eat the best food, and learn about its culture on the way. Join me as I
+    map out my dream .</p>
 </section>
 
 
@@ -509,36 +530,65 @@ India is one of the largets democracies and has the second most english speaking
 </section>
 
 
-
-
-
-<section>
-<h3> Food </h3>
-</section>
-
 <div class="slider">
     <ul id="lightSlider">
-        <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg">
-            <img src="https://sachinchoolur.github.io/lightslider/img/cS-1.jpg" />
+        <li data-thumb="images/tm.jpg">
+            <img src="images/tm.jpg" />
         </li>
-        <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-2.jpg">
-            <img src="https://sachinchoolur.github.io/lightslider/img/cS-2.jpg" />
+        <li data-thumb="images/goldtemp.jpg">
+            <img src="images/goldtemp.jpg" />
         </li>
-        <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-3.jpg">
-            <img src="https://sachinchoolur.github.io/lightslider/img/cS-3.jpg" />
+        <li data-thumb="images/red.jpg">
+            <img src="images/red.jpg" />
         </li>
-        <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-4.jpg">
-            <img src="https://sachinchoolur.github.io/lightslider/img/cS-4.jpg" />
+        <li data-thumb="images/buda1.jpg">
+            <img src="images/buda1.jpg" />
         </li>
         </ul>
         </div>
 
+<div class="descriptions">
+<p class="paragraph"> Pictured above are a few of the most reknown landmarks in India. The Taj Mahal
+was built between 1632 and 1653 by order of the Mughal emperor, Shah Jahan,
+ in memory of his favorite wife Mumtaz Mahal. The red fort was built in the seventeenth
+century, and was the main residence of the emperors in the Mughal dynasty. Perhaps one of
+ the most important religious sites for Sikhs is the Golden Temple, a beautiful structure
+  located in the city of Amritsar.
+ </p>
+</div>
 
 
+        <section>
+        <h3> Food </h3>
+        </section>
 
 
-
-
+        <div class="slider">
+            <ul id="lightSlider1">
+                <li data-thumb="images/food1.jpg">
+                    <img src="images/food1.jpg" />
+                </li>
+                <li data-thumb="images/food2.jpg">
+                    <img src="images/food2.jpg" />
+                </li>
+                <li data-thumb="images/food3.jpg">
+                    <img src="images/food3.jpg" />
+                </li>
+                <li data-thumb="images/food4.jpg">
+                    <img src="images/food4.jpg" />
+                </li>
+                <li data-thumb="images/hummus.jpg">
+                    <img src="images/hummus.jpg" />
+                </li>
+                </ul>
+                </div>
+                <div class="descriptions">
+                <p class="paragraph"> India has a variety of foods. Some of the most
+                  popular are tikka masala, butter chicken, samosas, and naan, of course. My personal favorites include biryani, palak paneer,
+                  and parantha. Although there is food everywhoere, there are some cities that
+                  are especially known for great food, sucha as Delhi, Mumbai, and Hyberdad!
+                 </p>
+                </div>
 
 
 </main>
@@ -556,9 +606,15 @@ India is one of the largets democracies and has the second most english speaking
       loop:true,
       slideMargin: 0,
       thumbItem: 9
-
-
   });
+  $('#lightSlider1').lightSlider({
+      gallery: true,
+      item: 1,
+      loop:true,
+      slideMargin: 0,
+      thumbItem: 9
+  });
+
 </script>
 </body>
 
