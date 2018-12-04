@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Us</title>
+
+
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Alice|Cormorant+Upright|Dancing+Script:700');
+
+  /*
+  header{
+    background-color: blue;
+    align-items: center;
+    text-align: center;
+    font-family: 'Cormorant Upright', serif;
+    overflow: scroll;
+
+  }
+  */
+
+  nav ul li{
+  list-style: none;
+  /* this is going to let the items in this to be listed aside eachother insead of under eachother*/
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: : 10px;
+  }
+  /* text-decoration...this is for removing the inderline of the words*/
+  nav ul li a{
+  text-decoration: none;
+  color: pink;
+  font-size: 20px;
+  }
+  body {margin:0;}
+
+  .navbar {
+    overflow: hidden;
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  #aboutus{
+    display: grid;
+    grid-template-areas: "abouthomeimage abouthomedescription";
+    grid-template-rows: 1fr;
+    grid-template-columns:50%;
+  }
+  #image1{
+    width: 380px;
+    margin-left: 200px;
+  }
+  h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-align: center;
+  }
+  h3{
+    font-family: 'Cormorant Upright', serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: -55px;
+  }
+  h4{
+    font-family: 'Alice', serif;
+    font-size: 50px;
+    text-align: center;
+  }
+  .paragraph{
+    font-family: 'Alice', serif;
+    font-size: 15px;
+    text-align: center;
+  }
+  #intro{
+    margin-right: 50px;
+  }
+  footer{
+    text-align: center;
+    background-color: pink;
+    margin-top: 40px;
+    font-family: 'Alice', serif;
+  }
+</style>
+</head>
+
+
+<body>
+<header>
+  <img src="">
+  <h1> Kendal & Kelby's Cheesecakes</h1>
+  <nav .class="navbar">
+  <div class="navbar">
+    <ul>
+
+  <li><a href="index.html"> Home</a></li>
+  <li><a href="menu.html"> Menu</a></li>
+  <li><a href="order.html"> Order</a></li>
+  <li><a href="aboutus.html"> About Us</a></li>
+
+    </ul>
+  </div>
+  </nav>
+</header>
+
+
+<main>
+  <section><!--about us-->
+    <div id="aboutus">
+    <div id="aboutusimage">
+  <img id="image1" src="images/cake.jpg">
+    </div>
+    <div id="aboutusdescription">
+      <h2> About</h2>
+      <h3> the </h3>
+      <h4>Bakers</h4>
+  <p id="intro" class="paragraph"> Kendal and Kelby's Cheesecakes is a small business startrs by
+  two twin sisters. We have always loved cooking and started making cheesecake in high school
+for our family. Since then, we've been working to perfect our recipe. Currently, we are both
+full time students at the University of Miami, with major in economics and ecosystem science
+and policy. We hope that one day we can share our cheesecakes with more people, and open a store! </p>
+    </div>
+    </div>
+  </section>
+</main>
+
+
+<footer>
+  <p>Kendal and Kelby Norfleet</p>
+  <p>209-681-3587</p>
+  <p>kkcheesecakes@gmail.com</p>
+</footer>
+</body>
+</html>

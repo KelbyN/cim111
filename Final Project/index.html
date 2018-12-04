@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Home</title>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Alice|Cormorant+Upright|Dancing+Script:700');
+
+/*
+header{
+  background-color: blue;
+  align-items: center;
+  text-align: center;
+  font-family: 'Cormorant Upright', serif;
+  overflow: scroll;
+
+}
+*/
+
+nav ul li{
+list-style: none;
+/* this is going to let the items in this to be listed aside eachother insead of under eachother*/
+display: inline-block;
+margin-left: 10px;
+margin-bottom: : 10px;
+}
+/* text-decoration...this is for removing the inderline of the words*/
+nav ul li a{
+text-decoration: none;
+color: pink;
+font-size: 20px;
+}
+
+#banner{
+  width: 1000px;
+  margin-bottom: 150px;
+}
+
+#abouthome{
+  display: grid;
+  grid-template-areas: "abouthomeimage abouthomedescription";
+  grid-template-rows: 1fr;
+  grid-template-columns:50%;
+}
+#image1{
+  width: 380px;
+  margin-left: 200px;
+}
+
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+h3{
+  font-family: 'Cormorant Upright', serif;
+  font-size: 35px;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: -55px;
+}
+h4{
+  font-family: 'Alice', serif;
+  font-size: 50px;
+  text-align: center;
+}
+.paragraph{
+  font-family: 'Alice', serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+#galleryhome{
+  display:grid;
+  grid-template-areas: "image2 image3 image4";
+  grid-template-rows:300px;
+  grid-template-columns: 300px 300px 300px;
+  margin-left: 200px;
+  align-items: center;
+  text-align: center;
+}
+#galleryhomeheader{
+  margin-top: -35px;
+  margin-bottom: -10px;
+}
+.galleryhomeimages{
+  width: 350px;
+  align-items: center;
+}
+#image2{
+  width: 300px;
+  margin-right: 45px;
+}
+#image3{
+  width:300px;
+  margin-right: 25px;
+}
+#image4{
+  width:300px;
+}
+#gallerytext{
+  font-size: 19px;
+}
+
+footer{
+  text-align: center;
+  background-color: pink;
+  margin-top: 40px;
+  font-family: 'Alice', serif;
+}
+
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: pink;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+#button{
+  margin-left: 550px;
+}
+a{
+  font-size: 25px;
+  font-family: 'Alice', serif;
+  color: #ff66b3;
+  align-content: center;
+  margin-top: 7px;
+  text-decoration: none;
+
+}
+a:hover{
+  text-decoration: underline;
+  color: #ff0080;
+}
+</style>
+</head>
+
+
+<body>
+
+<header>
+  <img src="">
+  <h1> Kendal & Kelby's Cheesecakes</h1>
+  <nav .class="navbar">
+<div class="navbar">
+    <ul>
+
+  <li><a href="index.html"> Home</a></li>
+  <li><a href="menu.html"> Menu</a></li>
+  <li><a href="order.html"> Order</a></li>
+  <li><a href="aboutus.html"> About Us</a></li>
+
+    </ul>
+</div>
+  </nav>
+</header>
+<main>
+<section><!--banner-->
+<img id="banner" src="images/dnut.jpg">
+</section>
+
+
+<section><!--about home-->
+  <div id="abouthome">
+  <div id="abouthomeimage">
+<img id="image1" src="images/cake.jpg">
+  </div>
+  <div id="abouthomedescription">
+    <h2> Simply</h2>
+    <h3> the best</h3>
+    <h4>Cheesecake</h4>
+<p id="intro" class="paragraph"> Our specialty is cheesecake. Years in the making, we've perfected the art of this classic dessert.
+  Our priouirty is to deliver freshness, so we hand make each cake to order. Every sauce is made
+  from fresh berries, and fresh cream. You can choose from one of our delicious flavors, or
+  if you have any flavor ideas, we can help you bring it to life!
+Perfect for any occasionn, we offer a variety of flavors for everyones creamy cravings!</p>
+  </div>
+  </div>
+</section>
+
+
+<section><!--divider--></section>
+<HR color="pink" width= "80%">
+
+<!-- slider with reviews-->
+
+  <section><!--divider--></section>
+  <HR color="pink" width= "80%">
+
+
+<section> <!-- gallery home-->
+<h2> Cheesecake </h2>
+<h4 id="galleryhomeheader">Menu</h4>
+
+<section>
+  <p id="gallerytext" class="paragraph"> We have flavors for every sweet tooth. Whether you want something
+    fruity, chocolately or vegan, every cheesecake lover will be satisfied!
+</section>
+
+<div id="galleryhome">
+<div class="galleryhomeimages">
+<img id="image2" src="images/cake.jpg">
+</div>
+<div class="galleryhomeimages">
+<img id="image3" src="images/cake.jpg">
+</div>
+<div class="galleryhomeimages">
+<img id="image4" src="images/cake.jpg">
+</div>
+</div>
+
+<section>
+<!--button-->
+<div id="button">
+<a href="menu.html" id="link">View our Menu</a>
+</div>
+</section>
+
+</section>
+</main>
+<footer>
+<p>Kendal and Kelby Norfleet</p>
+<p>209-681-3587</p>
+<p>kkcheesecakes@gmail.com</p>
+</footer>
+</body>
+</html>
