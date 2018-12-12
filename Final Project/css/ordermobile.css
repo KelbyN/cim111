@@ -1,0 +1,13 @@
+@import "order.css";
+
+#aboutorder{
+  display: block;
+  grid-template-areas: "abouthomeimage abouthomedescription";
+  grid-template-rows: 1fr;
+  grid-template-columns:50%;
+}
+
+#googleform{
+  
+  margin-left: 10px;
+}

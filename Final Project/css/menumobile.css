@@ -1,0 +1,70 @@
+@import "menu.css";
+
+nav ul li{
+list-style: none;
+/* this is going to let the items in this to be listed aside eachother insead of under eachother*/
+display: inline-block;
+margin-left: 10px;
+margin-bottom: : 10px;
+}
+/* text-decoration...this is for removing the inderline of the words*/
+nav ul li a{
+text-decoration: none;
+color: pink;
+font-size: 20px;
+}
+
+#grid1{
+display: block;
+grid-template-areas: "image1 image2 image3";
+grid-template-columns:310px 310px 310px;
+grid-template-rows: 300px ;
+margin-left: 110px;
+}
+
+#grid2{
+display: block;
+grid-template-areas: "image4 image5 image6";
+grid-template-columns:310px 310px 310px;
+grid-template-rows: 300px ;
+margin-left: 110px;
+}
+
+#grid3{
+display: block;
+grid-template-areas: "image7 image8 image9";
+grid-template-columns:310px 310px 310px;
+grid-template-rows: 300px ;
+margin-left: 110px;
+}
+
+#textgrid1{
+  display: block;
+  grid-template-areas: "text1 text2 text3";
+  grid-template-rows: 200px;
+  grid-template-columns: 310px 310px 310px;
+  margin-left: 165px;
+  margin-top: 28px;
+}
+
+#textgrid2{
+  display: block;
+  grid-template-areas: "text1 text2 text3";
+  grid-template-rows: 200px;
+  grid-template-columns: 310px 310px 310px;
+  margin-left: 165px;
+  margin-top: 28px;
+}
+
+#textgrid3{
+  display: block;
+  grid-template-areas: "text1 text2 text3";
+  grid-template-rows: 200px;
+  grid-template-columns: 310px 310px 310px;
+  margin-left: 165px;
+  margin-top: 28px;
+}
+
+#button{
+  margin-left: 150px;
+}

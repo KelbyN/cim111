@@ -1,0 +1,25 @@
+@import "aboutus.css";
+
+nav ul li{
+list-style: none;
+/* this is going to let the items in this to be listed aside eachother insead of under eachother*/
+display: inline-block;
+margin-left: 10px;
+margin-bottom: : 10px;
+}
+/* text-decoration...this is for removing the inderline of the words*/
+nav ul li a{
+text-decoration: none;
+color: pink;
+font-size: 20px;
+}
+body {margin:0;}
+
+
+#aboutus{
+  display: block;
+  grid-template-areas: "abouthomeimage abouthomedescription";
+  grid-template-rows: 1fr;
+  grid-template-columns:50%;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,22 @@
+@import "index.css";
+
+
+#banner{
+  width: 50%;
+  margin-bottom: 150px;
+}
+#abouthome{
+  display: block;
+  grid-template-areas: "abouthomeimage abouthomedescription";
+  grid-template-rows: 1fr;
+  grid-template-columns:50%;
+}
+#galleryhome{
+  display:block;
+  grid-template-areas: "image2 image3 image4";
+  grid-template-rows:1fr;
+  grid-template-columns: 50% 50% 50%;
+  margin-left: 200px;
+  align-items: center;
+  text-align: center;
+}
